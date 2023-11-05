@@ -131,7 +131,7 @@ class _WeatherScreen extends State<WeatherScreen> {
                   height: 120,
                   child: ListView.builder(
                       scrollDirection: Axis.horizontal,
-                      itemCount: 40,
+                      itemCount: 39,
                       itemBuilder: (context, index) {
                         final reusable = data['list'][index + 1];
                         final showCast =
